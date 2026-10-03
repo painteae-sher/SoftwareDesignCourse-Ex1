@@ -22,9 +22,6 @@ public class Card {
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
    
-   //by creating a static map
-   //we can convert possible string user inputs to their corresponding
-   //integer values needed for usage
    
     /**
      * @return the suit
