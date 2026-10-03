@@ -1,5 +1,9 @@
 package exercise1;
 
+import java.util.Map;
+
+
+
 /**
  * A class that models playing card Objects. Cards have 
  * a value (note that Ace = 1, Jack = 11, Queen = 12, King = 13)
@@ -9,6 +13,7 @@ package exercise1;
  * add your name as a modifier.
  * @author dancye
  * @author Paul Bonenfant May 2020
+ * @author Aedan Painter October 2026
  */
 public class Card {
 
@@ -16,6 +21,11 @@ public class Card {
    private int value;//1-13
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
+   
+   //by creating a static map
+   //we can convert possible string user inputs to their corresponding
+   //integer values needed for usage
+   
     /**
      * @return the suit
      */
